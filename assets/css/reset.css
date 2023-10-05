@@ -1,12 +1,13 @@
 :root{
 
-    --cinza_claro: #808080;
-    --cinza_claro_2: #e5e5e5;
-    --cinza_escuro: #333333;
-    --vermelho_vinho: #8D0606;
-    --vermelho_vinho_2: #620404;
-    --cinza_claro_3:  #fdfdfd;
-
+    --o-roxo:#820AD1;
+    --medium-purple:#4C0677;
+    --deep-purple:#2F0549;
+    --crimson-purple:#BD0FEA;  
+    --off-white:#F4F4F4;
+    --grey:#E4E4E4;
+    --light-grey:#820AD1;
+    --black:#000000;
 }
 
 

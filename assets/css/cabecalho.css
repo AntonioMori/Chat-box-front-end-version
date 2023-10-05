@@ -1,0 +1,10 @@
+.cabecalho{
+    background-color: var(--o-roxo);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.cabecalho__logo{
+ max-width: 100px;
+}
