@@ -1,0 +1,43 @@
+:root{
+
+    --cinza_claro: #808080;
+    --cinza_claro_2: #e5e5e5;
+    --cinza_escuro: #333333;
+    --vermelho_vinho: #8D0606;
+    --vermelho_vinho_2: #620404;
+    --cinza_claro_3:  #fdfdfd;
+
+}
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.container{
+    
+	margin: 0 auto;
+
+}
+
+h2{
+    font-family: "pacifico", sans-serif;
+    color:var(--vermelho_vinho)
+}
+
