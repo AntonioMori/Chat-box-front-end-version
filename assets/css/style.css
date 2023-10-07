@@ -70,10 +70,21 @@
   
   .section {
     margin: 0 auto;
-    padding-block: 5rem;
+    padding-block: 3rem;
+    padding-top: 1rem;
+    width: 98%;
   }
   
+  /*layout para celular*/
+  @media (max-width: 767px) {
+    .section {
+      margin: 0 auto;
+      padding-block: 3rem;
+      padding-top: 0.5rem;
+      width: 98%;
+    }
 
+  }
   
   .swiper-button-next::after, .swiper-button-prev::after {
     display: flex;

@@ -1,0 +1,15 @@
+
+
+const botaoEnviarTexto = document.getElementById('botaoEnviar');
+const inputTexto = document.getElementById('inputCelular');
+
+botaoEnviarTexto.addEventListener('click', function () {
+    const novoTexto = document.createElement('p');
+    novoTexto.classList.add('paragrafo__estilizado');
+  
+    novoTexto.textContent = inputTexto.value;
+  
+  // Adiciona o novo texto à div
+  celular__tela.appendChild(novoTexto)
+
+});
