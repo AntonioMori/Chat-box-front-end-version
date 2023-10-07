@@ -1,50 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <!-- general meta tags -->
-  <meta charset="utf-8">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- site specific tags -->
-  <title>Chat-box AluraBank</title>
-  
-  <!-- style sheets -->
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/cabecalho.css">
+	<!-- general meta tags -->
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- fontes -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<!-- site specific tags -->
+	<title>Chat-box AluraBank</title>
 
-  
-  <!-- javascript files -->
-  <script src="galeria.js"></script>
+	<!-- style sheets -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/cabecalho.css">
+	<link rel="stylesheet" href="assets/css/resumo.css">
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css'>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- fontes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	
+	<!-- carrosel files -->
+
+
+	<!-- javascript files -->
+	<script src="galeria.js"></script>
+		
 </head>
 
-<body>
-	<header class="cabecalho container">
-		<img src="assets/img/Antonio.png" alt="foto do desenvolvedor antonio" class="cabecalho__logo">
-		<div class="cabecalho__conteudo">
-      <h1 class="cabecalho__conteudo--titulo">Antonio Bank</h1>
-      <br class="cabecalho__conteudo--subtitulo">Dos mesmos criadores de </br> confia pow</h2>
-		</div>
-  </header>
-  
-  
-  
-  
-  <main>
-	<section>
-	  <article>
-		
-	  </article>
-	</section>
-  </main>
-  <footer>
-	
-  </footer>
-</body>
+	<body>
+		<header class="cabecalho container">
+			
+			<div class="cabecalho__circulo">
+				<img src="assets/img/Antonio.png" alt="foto do desenvolvedor antonio" class="cabecalho__circulo--imagem">
+			</div>
+
+			<div class="cabecalho__conteudo">
+				<h1 class="cabecalho__conteudo--titulo">Antonio Bank</h1>
+				<h2 class="cabecalho__conteudo--subtitulo">Dos mesmos criadores de</h2>
+				<h2 class="cabecalho__conteudo--subtitulo">confia pow</h2>
+			</div>
+
+		</header>
+
+		<main>
+			<section class="resumo container">
+				
+				<img src="assets/img/breveresumo.png" alt="imagem escrito 'Um breve resumo'" class="resumo--imagem">
+				
+				<div class="resumo__conteudo--box">
+					<h2 class="resumo__conteudo--titulo">Olá, me chamo Antonio</h2>
+					<p class="resumo__conteudo--paragrafo">Este é um breve exercício de chat-box para uma aula da cadeira de programação 2, algo bem simples apenas um exercício diário e treinamento.</p>
+				</div>
+
+			</section>
+
+			<section class="section slider-section">
+				<div class="container slider-column">
+					
+					<div class="swiper swiper-slider">
+						<div class="swiper-wrapper">
+							<img class="swiper-slide" src="assets/img/main1.png" alt="Swiper">
+							<img class="swiper-slide" src="assets/img/main2.png" alt="Swiper">
+							<img class="swiper-slide" src="assets/img/functions 1.png" alt="Swiper">
+							<img class="swiper-slide" src="assets/img/functions 2.png" alt="Swiper">
+							<img class="swiper-slide" src="assets/img/functions 3.png" alt="Swiper">
+						</div>
+						<span class="swiper-pagination"></span>
+						<span class="swiper-button-prev"></span>
+						<span class="swiper-button-next"></span>
+					</div>
+				</div>
+			  </section>
+
+
+
+
+		</main>
+		<footer>
+
+		</footer>
+
+		<script src='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js'></script>
+		<script  src="assets/js/script.js"></script>
+	</body>
 </html>
