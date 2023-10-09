@@ -107,8 +107,6 @@
 }
 
 
-/* saudação*/
-
 
 
 /* box onde fica input e botao enviar*/
@@ -141,7 +139,18 @@
 
 
 
+/*responsividade mobile*/
 
+@media (max-width: 767px){
+
+    .conversao__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;        
+    }
+}
 
 
 

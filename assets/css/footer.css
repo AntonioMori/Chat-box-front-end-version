@@ -19,7 +19,7 @@ footer{
     
 }
 
-.footer--Nome{
+.footer--nome{
     font-size: 1.2rem;
     font-family: Open Sans;
     font-weight: bold;
@@ -154,3 +154,54 @@ footer{
     transform: scale(0.95);
   }
   
+
+  /*responsividade mobile*/
+
+  @media (max-width: 767px){
+    footer{
+        height: 150px;
+    }
+
+    .footer--nome{
+        font-size: 1rem;
+        font-family: Open Sans;
+        font-weight: bold;
+        color: var(--off-white);
+        padding-bottom: 10px;
+    }
+
+    .footer--contato{
+        font-size: 1rem;
+        font-weight: bold;
+    }    
+  
+    .footer__esquerda--box{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        padding-left: 5%;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+    
+    .footer__direita--box{
+        width: 20%;
+        height: 100%;
+        padding-right: 5%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .cssbuttons-io{
+        margin-top: 20px;
+    }
+
+
+ }
