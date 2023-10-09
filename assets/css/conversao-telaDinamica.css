@@ -1,4 +1,47 @@
-.paragrafo__estilizado{
-    font-family: open sans, sans-serif;
-    font-size: 12px;
+.usuario{
+    align-self: flex-end;
+    width: 70%;
+    margin: 10px 5px 0 0;
+    padding: 6px 12px 6px 10px;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: end;
+    background-color: #3c096c;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 0 20px 20px;
+
+
+}
+
+::placeholder{
+    color: #5a5a5a;
+ 
+}
+
+.celular__tela--atendente{
+    align-self: flex-start;
+    width: 90%;
+    margin: 10px 0 0 5px;
+    padding: 6px 10px 6px 12px;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: justify;
+    background-color: #a23bab;
+    color: rgb(255, 255, 255);
+    border-radius: 0 20px 20px 20px;
+
+}
+
+.celular__tela--ultimato{
+    align-self: flex-start;
+    width: 90%;
+    margin: 10px 0 20px 5px;
+    padding: 6px 10px 6px 12px;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: justify;
+    background-color: #A23BAB;
+    color: rgb(255, 255, 255);
+    border-radius: 0 20px 20px 20px;
+
 }
