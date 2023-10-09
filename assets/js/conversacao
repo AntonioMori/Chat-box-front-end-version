@@ -134,3 +134,9 @@ function isValidName(name) {
     inputTexto.value = '';
   });
   
+
+
+
+
+
+

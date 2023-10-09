@@ -1,0 +1,17 @@
+
+/* Defina os estilos de animação iniciais */
+.animated-element {
+    opacity: 0; 
+    transform: translateX(-90%);
+    transition: opacity 0.5s, transform 1s;
+  }
+  
+
+  /* Define os estilos da animação quando ativada */
+  .animated-element.show {
+    opacity: 1; 
+    transform: translateY(0);
+  }
+  
+
+ 

@@ -7,12 +7,21 @@
 }
 
 .inspiracao--titulo{
-   
     font-size: 2vw;
     font-family: Open Sans;
     font-weight: bold;
     color: var(--black);
+    cursor: pointer;
+    animation: lightSpeedInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
 }
+
+.inspiracao--titulo:hover{
+    text-decoration: underline;  
+}
+
+
 
 /*layout para celular*/
 @media (max-width: 767px) {

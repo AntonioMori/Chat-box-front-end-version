@@ -32,8 +32,8 @@ a {
 }
 
 .container{
-    
 	margin: 0 auto;
+    
 
 }
 
@@ -42,3 +42,24 @@ h2{
     color:var(--vermelho_vinho)
 }
 
+/*scroll bar*/
+
+  body {
+    scrollbar-width: auto;
+    scrollbar-color: #820AD1 none;
+  }
+
+  
+  body::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #820AD1;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
