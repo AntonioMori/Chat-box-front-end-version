@@ -173,4 +173,18 @@
 
     }
     
+    .conversao__descricao--titulo{
+
+      font-size: 1.5rem;
+  }
+
+  .conversao__descricao--texto{
+    width: 80%;
+    text-align: justify;
+    color: white;
+    font-family: open sans, cursive;
+    font-size: 0.85rem;
+
+}
+
 }

@@ -150,6 +150,14 @@
         align-items: center;
         height: 1000px;        
     }
+
+    .conversao--titulo{
+      font-size: 1.5rem;
+     
+  
+  }
+
+
 }
 
 
